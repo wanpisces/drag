@@ -5,7 +5,6 @@ function drag(id,target){
 	var disX = 0;
 	var disY = 0;
 	var num = 0;
-	var index = "";
 	obj.onmousedown = function(ev){
 		disX = ev.pageX - obj.offsetLeft;
 		disY = ev.pageY - obj.offsetTop;
